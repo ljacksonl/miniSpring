@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="personService" class="spring.ioc.PersonServiceImpl">
+        <property name="personDao" ref="personDao"></property>
+        <property name="age" value="10"></property>
+    </bean>
+    <bean id="personDao" class="spring.ioc.PersonDaoImpl">
+    </bean>
+</beans>
