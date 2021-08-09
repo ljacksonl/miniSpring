@@ -16,7 +16,7 @@ public class testJDBC {
         try {
             Class.forName( "com.mysql.jdbc.Driver" );
             conn = DriverManager.getConnection(url, user, password);
-            String sql = "INSERT IGNORE INTO person(name,age,content) VALUES(?,?,?)" ;
+            String sql = "INSERT IGNORE INTO person(ID,name,age,content) VALUES(?,?,?,?)" ;
             //预编译,存储过程
             pstm = conn.prepareStatement(sql);
             ////获得系统的时间
@@ -24,19 +24,18 @@ public class testJDBC {
             Random rand = new Random();
             NameBuilder nameBuilder = new NameBuilder();
             int a,b,c,d;
-            for (int j = 1; j <= 30; j++) {
-                for (int i = 1; i <= 100000; i++) {
-                    pstm.setString(1, nameBuilder.build());
+                for (int i = 1; i <= 1000; i++) {
+                    pstm.setInt(1,i);
+                    pstm.setString(2, nameBuilder.build());
                     a = rand.nextInt(81);
                     b = rand.nextInt(81);
                     c = rand.nextInt(81);
                     d = rand.nextInt(81);
-                    pstm.setInt(2, a);
-                    pstm.setString(3, "xxxxxxxxxx_" + "188" + a + "88" + b + c + "66" + d);
+                    pstm.setInt(3, a);
+                    pstm.setString(4, "xxxxxxxxxx_" + "188" + a + "88" + b + c + "66" + d);
                     pstm.addBatch();
                 }
                 pstm.executeBatch();
-            }
             Long endTime = System.currentTimeMillis();
             System.out.println( "OK,用时：" + (endTime - startTime));
         } catch (Exception e) {
