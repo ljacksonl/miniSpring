@@ -1,3 +1,5 @@
+package mysql;
+
 import mysql.NameBuilder;
 import org.junit.Test;
 
