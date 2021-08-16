@@ -4,29 +4,13 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adbd3162-b224-4c2f-944d-134d19853f64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/search/binarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/Advice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/BeforeAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/MethodInvocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/SimpleAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/aop/SimpleAOPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/ioc1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/ioc1/SimpleIOC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/ioc1/SimpleIOCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/ioc1/Wheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/ioc1/ioc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="adbd3162-b224-4c2f-944d-134d19853f64" name="Default Changelist" comment="编写快排算法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/MayDeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/WrongInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/WrongResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mysql/JDBCTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mysql/testJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lru/LRUTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lru/LRUTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lru/ListLRU.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lru/ListLRU.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lru/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lru/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mysql/JDBCTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testJDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lru/LRUTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lru/LRUTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,20 +25,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/search/binarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
               <folding>
-                <element signature="method#main#0;class#commonBinarySearch#0" />
-                <element signature="docComment;method#commonBinarySearch#0;class#commonBinarySearch#0" />
-                <element signature="method#commonBinarySearch#0;class#commonBinarySearch#0" />
-                <element signature="method#binarySearch#0;class#binarySearch#0" />
-                <element signature="docComment;method#recursionBinarySearch#0;class#commonBinarySearch#0" />
-                <element signature="method#recursionBinarySearch#0;class#commonBinarySearch#0" />
-                <element signature="e#1616#1724#1" />
                 <element signature="method#binarySearch2#0;class#binarySearch#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lru/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/WrongResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/WrongInit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MayDeadLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-150" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+              <folding>
+                <element signature="method#main#0;class#QuickSort#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lru/LRUTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lru/ListLRU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="method#printLRU#0;class#ListLRU#0" />
               </folding>
             </state>
           </provider>
@@ -106,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/main/java/mysql/LRU.java" />
         <option value="$PROJECT_DIR$/src/main/java/lru/LRU.java" />
         <option value="$PROJECT_DIR$/src/main/java/lru/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lru/LRUTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lru/ListLRU.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/ioc1/SimpleIOC.java" />
         <option value="$PROJECT_DIR$/src/main/java/spring/ioc1/Car.java" />
@@ -122,6 +174,13 @@
         <option value="$PROJECT_DIR$/src/main/java/spring/aop/SimpleAOP.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/commonBinarySearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/search/binarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lru/LRUTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/WrongResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/WrongInit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/concurrency/MayDeadLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/QuickSort1.java" />
       </list>
     </option>
   </component>
@@ -152,6 +211,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,7 +243,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mySpring" type="b2602c69:ProjectViewProjectNode" />
@@ -220,7 +280,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,13 +323,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.binarySearch">
-    <configuration name="LRUTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lru.LRUTest" />
+  <component name="RunManager" selected="Application.QuickSort1">
+    <configuration name="MayDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.MayDeadLock" />
       <module name="mySpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lru.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -278,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.binarySearch" />
+    <configuration name="QuickSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort1" />
       <module name="mySpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +350,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="commonBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.commonBinarySearch" />
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestSort" />
+      <module name="mySpring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrongInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.WrongInit" />
       <module name="mySpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,45 +370,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleAOPTest.getProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WrongResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.WrongResult" />
       <module name="mySpring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring.aop.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="spring.aop" />
-      <option name="MAIN_CLASS_NAME" value="spring.aop.SimpleAOPTest" />
-      <option name="METHOD_NAME" value="getProxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleIOCTest.getBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mySpring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring.ioc1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="spring.ioc1" />
-      <option name="MAIN_CLASS_NAME" value="spring.ioc1.SimpleIOCTest" />
-      <option name="METHOD_NAME" value="getBean" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.binarySearch" />
-        <item itemvalue="Application.commonBinarySearch" />
-        <item itemvalue="JUnit.SimpleAOPTest.getProxy" />
-        <item itemvalue="JUnit.SimpleIOCTest.getBean" />
-        <item itemvalue="Application.LRUTest" />
+        <item itemvalue="Application.QuickSort1" />
+        <item itemvalue="Application.TestSort" />
+        <item itemvalue="Application.MayDeadLock" />
+        <item itemvalue="Application.WrongInit" />
+        <item itemvalue="Application.WrongResult" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +411,12 @@
       <workItem from="1628301507552" duration="863000" />
       <workItem from="1628302432389" duration="594000" />
       <workItem from="1628471957677" duration="13334000" />
-      <workItem from="1628557539392" duration="10303000" />
+      <workItem from="1628557539392" duration="12548000" />
+      <workItem from="1628644331255" duration="1189000" />
+      <workItem from="1628730489318" duration="2107000" />
+      <workItem from="1628817435529" duration="660000" />
+      <workItem from="1628906696075" duration="816000" />
+      <workItem from="1629075640824" duration="7665000" />
     </task>
     <task id="LOCAL-00001" summary="用JDBC导入百万数据">
       <created>1628213279583</created>
@@ -394,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628566285702</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="编写二分查找算法">
+      <created>1628587836221</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628587836221</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -430,13 +489,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45258000" />
+    <option name="totallyTimeSpent" value="59940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3139183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -444,10 +503,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21639344" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3262295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,6 +519,7 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="Gitee Pull Requests" order="15" weight="0.3295082" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
@@ -478,19 +537,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="用JDBC导入百万数据" />
     <MESSAGE value="编写LRU算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="编写LRU算法" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/lru/LRUTest.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="编写二分查找算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写二分查找算法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/classes/spring/achieve/application.xml">
@@ -586,35 +634,6 @@
             <element signature="method#instanceBeans#0;class#YhdClassPathXmlApplicationContext#0" />
             <element signature="e#3123#3124#0" expanded="true" />
             <element signature="e#3169#3170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lru/LRUTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lru/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lru/ListLRU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="docComment;class#ListLRU#0" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="method#printLRU#0;class#ListLRU#0" />
           </folding>
         </state>
       </provider>
@@ -744,13 +763,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/JDBCTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mysql/JDBCTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/aop/SimpleAOPTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -770,17 +783,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/search/binarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
           <folding>
-            <element signature="method#main#0;class#commonBinarySearch#0" />
-            <element signature="docComment;method#commonBinarySearch#0;class#commonBinarySearch#0" />
-            <element signature="method#commonBinarySearch#0;class#commonBinarySearch#0" />
-            <element signature="method#binarySearch#0;class#binarySearch#0" />
-            <element signature="docComment;method#recursionBinarySearch#0;class#commonBinarySearch#0" />
-            <element signature="method#recursionBinarySearch#0;class#commonBinarySearch#0" />
-            <element signature="e#1616#1724#1" />
             <element signature="method#binarySearch2#0;class#binarySearch#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lru/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/WrongResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/WrongInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lru/LRUTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lru/ListLRU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="method#printLRU#0;class#ListLRU#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/concurrency/MayDeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+          <folding>
+            <element signature="method#main#0;class#QuickSort#0" />
           </folding>
         </state>
       </provider>
