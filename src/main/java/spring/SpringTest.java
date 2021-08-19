@@ -1,0 +1,12 @@
+package spring;
+
+import spring.bean.Person;
+import spring.context.LjsClassPathXmlApplicationContext;
+
+public class SpringTest {
+    public static void main(String[] args) {
+        LjsClassPathXmlApplicationContext ljsClassPathXmlApplicationContext = new LjsClassPathXmlApplicationContext("spring.xml");
+        Person person = (Person) ljsClassPathXmlApplicationContext.getBean("person");
+        System.out.println(person.getName());
+    }
+}

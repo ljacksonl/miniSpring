@@ -52,7 +52,7 @@ public class YhdClassPathXmlApplicationContext {
      * 根据文件名读取xml的配置文件
      *
      * @param fileName Administer
-     *                 2013-8-26 下午11:09:16
+     *
      */
     private void readXml(String fileName) {
         // TODO Auto-generated method stub
@@ -62,6 +62,7 @@ public class YhdClassPathXmlApplicationContext {
                      try {
                             //获取要读取的配置文件的路径
                            URL xmlPath=this.getClass().getClassLoader().getResource(fileName);
+                         System.out.println(xmlPath);
                             //读取文件内容
                             document=saxReader.read(xmlPath);
                              //获取xml中的根元素

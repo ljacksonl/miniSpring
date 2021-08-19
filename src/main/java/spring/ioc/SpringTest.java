@@ -14,7 +14,6 @@ public class SpringTest {
     public void testInstanceSping() {
         YhdClassPathXmlApplicationContext ctx=new YhdClassPathXmlApplicationContext("beans.xml");
         PersonService personService=(PersonService)ctx.getBean("personService");
-
     }
 
 }

@@ -39,7 +39,7 @@ public class ClassPathXmlApplicationContext implements ApplicationContext {
 		    //拿到resources下的文件
 			document = reader.read(new File(currentPath+fileName));
 			System.out.println(currentPath+fileName);
-			//拿到文件下的元素
+			//获得根节点
             Element root =document.getRootElement();
             //放到迭代器中
             Iterator iterable = root.elementIterator();
